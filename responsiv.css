@@ -1,0 +1,173 @@
+@media screen and (max-width: 360px){
+	.container{
+		font-size: 10px;
+		margin: 0 auto;
+	}
+	.navbar {
+		width: 100%;
+		height: 4em;
+		position:static;
+	}
+	.menu{
+		display: none;
+	}
+	.logo img{
+		height: 3.5em;
+		display: block;
+		margin: auto 1.5em;
+	}
+	#welcome{
+		width: 16em;
+		top: 16em;
+		right: -6em;
+		animation: welcome 1.5s forwards;
+	}
+	@keyframes welcome {
+		form {right: -6em;}
+		to {right: -3em;}
+	}
+	.sun{
+		position: absolute;
+		top: -6.2em;
+		right: 26em;
+	}
+	/* .responsive-menu{
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 0em;
+		left: 0em;
+		display: flex;
+		justify-content: space-around;
+		font-size: 1.5em;
+		margin: auto;
+		text-align: center;
+		background-color: rgb(255, 255, 255);
+		z-index: 1;
+	}
+	.rmenu ul{
+		list-style-type: none;
+		position: absolute;
+		left: 10em;
+		top: 2em;
+		display: none;
+	}
+	.rmenu li{
+		margin: 0.5em auto;
+	} */
+	.responsive-menu{
+		display: flex;
+		font-size: 1.5em;
+	}
+	.responsive-menu i{ 
+		position: absolute;
+		top: 1em;
+		left: 1em;
+	}
+	.information{
+		width: 30em;
+		margin-bottom: 12em;
+		margin-top: 5em;
+	}
+	.desktop-prg{
+		display: none;
+	}
+	.responsiv-prg{
+		display: block;
+		margin: auto;
+	}
+	.farmer2 img, .farmer4 img{
+		width: 28em;
+		right: -6em;
+		opacity: 1;
+	}
+	.farmer1 img, .farmer3 img{
+		width: 28em;
+		left: -5em;
+		opacity: 1;
+	}
+	.bio1 , .bio3{
+		top: 12.5em;
+		right: 0em;
+		width: 30em;
+	}
+	.bio2 , .bio4{
+		top: 12.5em;
+		left: 0em;
+		width: 30em;
+		height: 15em;
+		clear: right;
+	}
+	.bio2 h2, .bio4 h2{
+		float: left;
+	}
+	.bio2 p, .bio4 p::before{
+		content: "";
+		clear: both;
+		display: table;
+	}
+	.farmers h2{
+		margin-bottom: 0.5em;
+	}
+	form{
+		width: 26em;
+		margin-top: 13em;
+		margin-bottom: 5em;
+	}
+	form h2{
+		margin-bottom: 0.1em;
+		font-size: large;
+	}
+	.login img{
+		width: 18em;
+		position: absolute;
+		left: 4em;
+		top: -10.7em;
+	}
+	.content{
+		flex-direction: column;
+	}
+	input{
+		width: 21.5em;
+		height: 1.8em;
+		margin-bottom: 0.9em auto;
+	}
+	.info{
+		width: 25.5em;
+	}
+	#btn2{
+		width: 16.6em;
+		height: 1.8em;
+		margin: 0.5em auto;
+	}
+	.bg{
+		display:none;
+	}
+	.bg2{
+		display: block;
+		width: 40em;
+		position: absolute;
+		z-index: 0;
+		bottom: -21.5em;
+	}
+	.cu{
+		right: 6em;
+		top: 16.5em;
+		font-size: 0.8em;
+	}
+	.pr img{
+		top: 14.5em;
+		width: 5em;
+	}
+	.enamad{
+		right: 25em;
+	}
+	.samandehi{
+		right: 27.5em;
+	}
+	.pr h2{
+		top: 10em;
+		right: 20em;
+		font-size: 1.3em;
+	}
+}
